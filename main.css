@@ -1,0 +1,74 @@
+body{
+ background-image: url("/home/Untitled-2.png");
+ background-size:100%;
+ background-repeat: no-repeat;
+ position:relative;
+ top: 10%;
+ left: 0;
+
+}
+h1{
+ color: #4FC27E;font-family: 'Manrope', sans-serif;
+ text-align: center;
+}
+#hi{
+ position: absolute;
+  top: 30vh;
+  left: 20lh;
+}
+#grp2{
+ position:absolute;
+ top:50vh;
+ left: 16vw;
+ transition: transform 0.3s ease-in-out;
+z-index: 1;
+}
+#grp2:hover{
+ transform: scale(1.1);
+}
+#dog{
+ position:absolute;
+ top:20vh;
+ left: 18vw;
+ transition: transform 0.3s ease-in-out;
+
+}
+#dog:hover{
+ transform: scale(1.1);
+
+}
+
+#emoji{
+ transition: transform 0.3s ease-in-out;
+z-index: -1;
+}
+#emoji:hover{
+ transform: rotate(5deg);
+
+}
+.vertical-button {
+ 
+  transform: rotate(-90deg);
+  width: 150px; 
+  height: 50px; 
+  padding: 10px;
+ position: absolute;
+ top: 55vh;
+ left: 0vw;
+  cursor: pointer;
+}
+#cute{
+ position:absolute;
+ top: 35vh;
+ left:2vw;
+}
+#grp4{
+  position:absolute;
+ top: 70vh;
+ left:60vw;
+ transition: transform 0.3s ease-in-out;
+
+}
+#grp4:hover{
+ transform: scale(1.1);
+}

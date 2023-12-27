@@ -1,0 +1,51 @@
+
+.message-box {
+ position: relative;
+ z-index: 1; /* Ensure it appears above blurred background */
+ background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+ padding: 20px;
+ border-radius: 5px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Optional shadow */
+}
+
+.message-content {
+ text-align: center;
+}
+body {
+ background-image: url("/login/bg.png");
+ background-size:100%;
+ display: flex;
+ align-items: center;
+ justify-content: center; /* Optional for horizontal centering */
+ height: 100vh; /* Ensure body takes full height */
+ margin: 0; /* Remove default margin */
+}
+#sign{
+position: absolute;
+top: 20vh;
+left: 5vw;
+transition: transform 0.3s ease-in-out;
+
+}
+#sign:hover{
+ transform: scale(1.1);
+
+}
+.card-body{
+ background-image: url("/login/Rectangle\ 15.png");
+ background-size:100%;
+ background-repeat: no-repeat;
+ position:relative;
+ top: 10%;
+ left: 0; 
+}
+#in{
+ position:absolute;
+ top:13vh;
+ left: 8vw;
+ transition: transform 0.3s ease-in-out;
+
+}
+#in:hover{
+ transform: scale(1.1);
+}
