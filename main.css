@@ -14,7 +14,9 @@ h1{
 #hi{
  position: absolute;
   top: 30vh;
-  left: 20lh;
+  left: 20vw;
+   width:10vw ;
+ height:20vh;
 }
 #grp2{
  position:absolute;
@@ -22,19 +24,23 @@ h1{
  left: 16vw;
  transition: transform 0.3s ease-in-out;
 z-index: 1;
+width: 15vw ;
+height:40vh;
 }
 #grp2:hover{
  transform: scale(1.1);
 }
 #dog{
  position:absolute;
- top:20vh;
- left: 18vw;
+ width:40vw ;
+ height:75vh;
+ top:25vh;
+ left: 22vw;
  transition: transform 0.3s ease-in-out;
 
 }
 #dog:hover{
- transform: scale(1.1);
+ transform:translate(10px,0px);
 
 }
 
@@ -61,13 +67,15 @@ z-index: -1;
  position:absolute;
  top: 35vh;
  left:2vw;
+ 
 }
 #grp4{
   position:absolute;
  top: 70vh;
  left:60vw;
  transition: transform 0.3s ease-in-out;
-
+ width:10vw ;
+ height:15vh;
 }
 #grp4:hover{
  transform: scale(1.1);
