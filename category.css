@@ -58,3 +58,42 @@
     padding: 0 40px;
   }
 }
+
+.navbar {
+ background-color: rgba(250, 250, 250, 0.214); /* Semi-transparent black background */
+ backdrop-filter: blur(10px); /* Apply the blur effect */
+}
+
+body {
+background-image: url("/category/Group\ 1\ .png");
+ background-size:100%;
+ background-repeat: no-repeat;
+ position:relative;
+ top: 10%;
+ left: 0;
+ height: 100%;
+  object-fit: cover;
+}
+
+#cat{
+ position: absolute;
+ top: 50vh;
+ left: 25vw;
+ 
+}
+#dog{
+ position: absolute;
+ top: 50vh;
+ left: 65vw;
+}
+#board{
+ position: absolute;
+ top: 05vh;
+ left: 25vw;
+ z-index: -1;
+}
+#h1{
+ position: absolute;
+ top: 24vh;
+ left: 36vw;
+}
