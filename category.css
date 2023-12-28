@@ -97,3 +97,35 @@ background-image: url("/category/Group\ 1\ .png");
  top: 24vh;
  left: 36vw;
 }
+@media (max-width: 769px){
+  body{
+    background-image: url("/category/Group\ 33.png");
+ background-size:100%;
+ background-repeat: no-repeat;
+ position:fixed;
+
+object-fit: cover;
+ /* background-position: center 10vh; */
+ 
+  }
+ #board{
+  opacity: 0%;
+ }
+ #dog{
+  top:50vh;
+  left: 50vw;
+ }
+ #cat{
+  top:25vh;
+  left: 50vw;
+  
+ }
+ .button-56 {
+ max-width: 200px;
+  height: 60px; /* Example height */
+
+}
+ #h1{
+  opacity: 0%;
+ }
+}
