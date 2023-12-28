@@ -54,3 +54,12 @@ transition: transform 0.3s ease-in-out;
 #in:hover{
  transform: scale(1.1);
 }
+@media (max-width: 769px){
+
+#sign{
+ transform: scale(.5);
+ top: 5vh;
+}
+
+
+}
