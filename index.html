@@ -16,55 +16,72 @@
 </head>
 <body>
  
-<nav class="navbar navbar-expand-md fixed-top">
- <a class="navbar-brand" href="#">
-  <img src="/home/Untitjjled 1.png" class="d-inline-block align-top" alt="">
- 
-</a><span style="font-family: 'Secular One', sans-serif;"> VETIGO </span>
- <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-     aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
- </button>
- <div class="collapse navbar-collapse" id="collapsibleNavId" style="font-family: 'Manrope', sans-serif;">
-  <ul class="navbar-nav  ">
-   <li class="nav-item active ">
-    <a class="nav-link" href="/categoryselection.html">Dating </a>
-   </li>
-   <li class="nav-item ">
-    <a class="nav-link" href="#">Shop</a>
-   </li>
-   <li class="nav-item ">
-    <a class="nav-link" href="#">Blog</a>
-   </li>
-   <li class="nav-item ">
-    <a class="nav-link " href="#">About Us</a>
-   </li>
-   
-   <button type="button" class="btn btn-dark rounded-pill float-right" onclick="movetoLogin()">Get Started</button>
+<!-- Ensure you have included the necessary Bootstrap CSS and JavaScript files -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="/home/Untitjjled 1.png" class="d-inline-block align-top" alt="">
+      <span style="font-family: 'Secular One', sans-serif;">VETIGO</span> 
+    </a>
 
-   <script>
-   function movetoLogin() {
-     window.location.href = "login.html";
-   }
-   </script>
-   
- 
-  </ul>
- </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+      <div class="offcanvas-body ">
+        <ul class="navbar-nav ">
+          <li class="nav-item mb-2">
+            <a class="nav-link" href="/categoryselection.html">Dating</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="mb-2">
+            <button type="button" class="btn btn-dark rounded-pill" onclick="movetoLogin()">Get Started</button>
+          </li>
+        </ul>
+      </div>
+    
+    </div>
+  </div>
 </nav>
 
+
+
+
+<script>
+  function movetoLogin() {
+      window.location.href = "login.html";
+  }
+</script>
+
+
 <div class="p-5 mb-4  rounded-3" id="jumb">
- <div class="container-fluid py-5">
-  <img src="/home/Group 14.png" class="img-fluid" id="hi">
-<div class="col-md-12">
+ <div class="container py-5">
+  <div class="col-md-12 ">
   <h1 class="display-1" id="h1">Meet the <br><span style="color: #202020;"> Chosen one</span>
   
-  </h1></div>
-  <img src="/home/image 5.png" class="img-fluid float-end d-block" id="emoji" >
+  </h1></div></div>
+  <div class="container">
+    <div class="row"><div class="col-xs-2"><img src="/home/image 5.png" class="img-fluid float-end d-block" id="emoji" ></div></div>
+    <div class="row">
+      <div class="col-md-3"><img src="/home/Group 14.png" class="img-fluid" id="hi"></div>
+      <div class="col-md-12"><img src="/home/Group 7.png"class="img-fluid" alt="" id="dog"></div>
+      
+    </div>
+    
+  </div>
+  
   <img src="/home/Group 2.png" alt="" class="img-fluid" id="grp2">
-  <img src="/home/Group 7.png"class="img-fluid" alt="" id="dog">
+  <div class="row-cols-3" id="dogcont"></div>
+  
   <img src="/home/cute_animal_doctor_disney-removebg-preview 1.png" class="img-fluid" id="cute">
-  <button class="btn btn-dark rounded-pill vertical-button" style="font-family: 'Manrope', sans-serif;">Doctors</button>
+  <button class="btn btn-dark rounded-pill vertical-button" style="font-family: 'Manrope', sans-serif;" id="doctor">Doctors</button>
 <img src="/home/Group 4.png" class="img-fluid" alt="" id="grp4">
  </div>
 </div>
