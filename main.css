@@ -76,8 +76,8 @@ height:40vh;
 }
 #cute{
  position:absolute;
- top: 45vh;
- left:2vw;
+ top: 35vh;
+ left:1vw;
  
 }
 #grp4{
@@ -91,8 +91,49 @@ height:40vh;
 #grp4:hover{
  transform: scale(1.1);
 }
+.bn39 {
+  background-image: linear-gradient(135deg, #008aff, #86d472);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
+  transform: rotate(-90deg);
+  left: -5vw;
+  top: 7vh;
+}
 
+.bn39:hover {
+  color: #fff;
+}
+
+.bn39 .bn39span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.bn39:hover .bn39span {
+  background: transparent;
+}
 @media (max-width: 769px) {
+  .bn39{
+    top: 5vh;
+    transform: rotate(0);
+    left: 34vw;
+  }
   #dog{
     top: 50vh;
   left: -15vw;
