@@ -18,3 +18,11 @@ transition: transform 0.3s ease-in-out;
  transform: scale(1.1);
 
 }
+@media (max-width: 768px) {
+ body {
+  background-image: url('/category/BG.png');
+  
+   /* Other styles for smaller screens */
+ }
+ 
+}

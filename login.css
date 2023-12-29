@@ -62,4 +62,10 @@ transition: transform 0.3s ease-in-out;
 }
 
 
+}@media (max-width: 768px) {
+ body {
+  background-image: url('/category/BG.png');
+   /* Other styles for smaller screens */
+ }
+ 
 }
