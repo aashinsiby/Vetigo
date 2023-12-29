@@ -7,7 +7,7 @@ body{
 }
 @media (max-width: 768px) {
   body {
-    background-size: contain;
+    background-image: url("/category/BG.png");
     /* Other styles for smaller screens */
   }
   
@@ -95,10 +95,10 @@ height:40vh;
 @media (max-width: 769px) {
   #dog{
     top: 50vh;
-  left: 30vw;
+  left: -15vw;
   }
 #grp4{
- opacity: 0%;
+ width: auto;
 }
 h1{
   left: 0vw;
@@ -109,7 +109,8 @@ h1{
 }
 #hi{
  
-   top: 50vh;
+   top: 45vh;
+   left: 1vw;
    
    
  }
@@ -118,7 +119,10 @@ h1{
    
   }
   #grp2{
-    opacity: 0%;
+    width: auto;
+    height: 20vh;
+    top: 75vh;
+    left: 1vw;
   }
   #doctor{
     opacity: 0%;
