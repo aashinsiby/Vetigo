@@ -9,7 +9,19 @@
  right: 1vw;
 
 }
- 
+ /* Add this CSS to your existing styles or create a new CSS file */
+
+/* CSS */
+/* CSS */
+.carousel-item img {
+ max-width: 75%; /* Set the maximum width of the images within the carousel */
+ max-height: 90vh; /* Set the maximum height of the images */
+ width: auto; /* Allow the images to scale with the defined maximum width */
+ height: auto; /* Allow the images to scale with the defined maximum height */
+ margin: 0 auto; /* Center the images horizontally */
+}
+
+
 body{
  height: 100vh;
  background: linear-gradient(0deg, rgb(255, 96, 54), rgb(253, 210, 38)) no-repeat;
@@ -21,5 +33,11 @@ top: 25vh;
 right: 1vw;
 
 }
- 
+.carousel-item img {
+ max-width: 100%; /* Set the maximum width of the images within the carousel */
+ max-height: auto; /* Set the maximum height of the images */
+ width: auto; /* Allow the images to scale with the defined maximum width */
+ height: auto; /* Allow the images to scale with the defined maximum height */
+ margin: 0 auto; /* Center the images horizontally */
+}
 }

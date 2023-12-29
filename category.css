@@ -112,11 +112,11 @@ object-fit: cover;
   opacity: 0%;
  }
  #dog{
-  top:50vh;
+  top:25vh;
   left: 50vw;
  }
  #cat{
-  top:25vh;
+  top:50vh;
   left: 50vw;
   
  }

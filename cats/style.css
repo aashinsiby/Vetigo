@@ -100,3 +100,16 @@ body {
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  #swiper{
+    height: 40vh;
+  
+  }
+   #like,#dislike{
+    font-size: small;
+   }
+  } .text{
+    position: absolute;
+    top: 15vh;
+  }
