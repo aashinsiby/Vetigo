@@ -96,7 +96,7 @@ background-image: url("/category/Group\ 1\ .png");
 #h1{
  position: absolute;
  top: 24vh;
- left: 36vw;
+ left: 37vw;
 }
 @media (max-width: 769px){
   .page-content {
