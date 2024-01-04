@@ -79,12 +79,18 @@ background-image: url("/category/Group\ 1\ .png");
  position: absolute;
  top: 50vh;
  left: 25vw;
+ background-color: #002FD4;
+ 
  
 }
+.mobile-content {
+  display: none; /* Initially hide the mobile content */
+ }
 #dog{
  position: absolute;
  top: 50vh;
  left: 65vw;
+ background-color: #D40000;
 }
 #board{
  position: absolute;
@@ -98,8 +104,18 @@ background-image: url("/category/Group\ 1\ .png");
  left: 36vw;
 }
 @media (max-width: 769px){
+  .page-content {
+    display: none; /* Hide the .page-content */
+   }
+   
+   .mobile-content {
+    display: block; /* Display the mobile content */
+    /* Other styles for the mobile content */
+   }
   body{
-    background-image: url("/category/Group\ 33.png");
+  background-color: #D9D4A8;
+background-image: none;
+    /* background-image: url("/category/Group\ 33.png"); */
  background-size:100%;
  background-repeat: no-repeat;
  position:fixed;
@@ -111,15 +127,7 @@ object-fit: cover;
  #board{
   opacity: 0%;
  }
- #dog{
-  top:25vh;
-  left: 50vw;
- }
- #cat{
-  top:50vh;
-  left: 50vw;
-  
- }
+
  .button-56 {
  max-width: 200px;
   height: 60px; /* Example height */
@@ -128,4 +136,5 @@ object-fit: cover;
  #h1{
   opacity: 0%;
  }
+
 }
